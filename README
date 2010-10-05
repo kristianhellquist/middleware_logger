@@ -1,7 +1,16 @@
 MiddlewareLogger
 ================
 
-A rails middleware that logs request headers to RAILS_DEFAULT_LOGGER 
+
+A rails plugin that logs rack HTTP-headers by using a middleware.
+
+Logging is outputted to RAILS_DEFAULT_LOGGER
+
+
+Installation
+============
+
+script/plugin install git@github.com:meeiw/middleware_logger.git
 
 Usage
 =======
