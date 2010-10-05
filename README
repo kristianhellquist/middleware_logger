@@ -1,0 +1,14 @@
+MiddlewareLogger
+================
+
+A rails middleware that logs request headers to RAILS_DEFAULT_LOGGER 
+
+Usage
+=======
+
+In config/environments/development.rb add the following line:
+
+  config.middleware.use Middleware::Logger
+
+
+Copyright (c) 2010 [Kristian Hellquist], released under the MIT license
